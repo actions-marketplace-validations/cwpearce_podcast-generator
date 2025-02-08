@@ -1,6 +1,6 @@
-name: "Podcast Generator"
+name: "Podcast Generator Test by cwpearce"
 author: "cwpearce"
-description: "github sample from Ray Villalobos"
+description: "github sample from Ray Villalobos, by following a linkedin learn tutorial"
 runs:
   using: "docker"
   image: "Dockerfile"
