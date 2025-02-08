@@ -1,8 +1,9 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
-    python3 \
+    python3-full \
     python3-pip \
+    python3-yaml
     git
 
 RUN pip3 install pyyaml
